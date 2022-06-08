@@ -118,24 +118,16 @@ body::before {
 }
 
 @keyframes scanlines {
-    0% {
-        background-position: 0px 0px;
-    }
-
-    100% {
-        background-position: 0px 15px;
-    }
+    0% {background-position: 0px 0px;}
+    100% {background-position: 0px 15px;}
 }
 
 /* input cursor blink */
 
 @keyframes blink {
     0% {opacity: 1;}
-
     50% {opacity: 1;}
-
     60% {opacity: 0;}
-
     100% {opacity: 0;}
 }
 
