@@ -1,0 +1,145 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: monospace;
+    font-size: 25px;
+    color: rgb(201, 181, 143);
+    text-shadow: 0 0 5px #ae8549;
+    padding: 25px 25px 25px 25px;
+    background: black radial-gradient(#ff9a3b59, black 120%) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.header {
+    margin: 30px;
+    font-size: 30px;
+}
+
+.typing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+.title {
+    color: rgb(207, 207, 207);
+}
+
+.typing-container .title {
+    font-weight: bold;
+}
+
+.input-cursor {
+    display: inline-block;
+    align-self: flex-end;
+    width: 30px;
+    height: 5px;
+    background-color: rgb(207, 207, 207);
+    box-shadow: 0 0 5px #ae8549;
+    margin-left: 10px;
+    animation: blink 0.5s linear infinite alternate;
+}
+
+.header a {
+    margin: 0px 20px 0px 20px;
+}
+
+a,
+a:active,
+a:visited {
+    color: rgb(194, 152, 16);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    max-width: 900px;
+    padding: 0px 20px 0px 20px;
+    margin-bottom: 30px;
+}
+
+.updates {
+    margin-top: 100px;
+}
+
+/* about */
+
+.author-image {
+    float: left;
+    margin: 0px 30px 15px 0px;
+    max-width: 270px;
+    border-radius: 4px;
+    opacity: 0.58;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+/* micro blog */
+
+.post-container {
+    padding: 5px;
+    margin-bottom: 10px;
+    max-width: 700px;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 4px #ae8549;
+    border-radius: 2px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    text-shadow: none;
+}
+
+.post img {
+    max-width: 250px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    opacity: 0.95;
+}
+
+/* scanlines */
+
+body::before{
+    content: "";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(rgba(20, 20, 20, 0) 66%, rgba(0, 0, 0, 0.15) 33%);
+    background-size: 100% 5px;
+    z-index: 9999;
+    pointer-events: none;
+    animation: scanlines-anim 1.0s linear infinite;
+}
+
+@keyframes scanlines-anim{
+    0% {
+		background-position: 0px 0px;
+	}
+	100% {
+        background-position: 0px 15px;
+	}
+}
+
+/* input cursor blink */
+
+@keyframes blink {
+    0% {opacity: 1;}
+    50% {opacity: 1;}
+    60% {opacity: 0;}
+    100% {opacity: 0;}
+  }
