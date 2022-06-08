@@ -75,7 +75,9 @@ a:hover {
     margin-top: 100px;
 }
 
-/* about */
+.now {
+    margin-top: 60px;
+}
 
 .author-image {
     float: left;
@@ -84,29 +86,6 @@ a:hover {
     border-radius: 4px;
     opacity: 0.58;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-}
-
-/* micro blog */
-
-.post-container {
-    padding: 5px;
-    margin-bottom: 10px;
-    max-width: 700px;
-    background-color: rgba(255, 255, 255, 0.6);
-    box-shadow: 0 0 4px #ae8549;
-    border-radius: 2px;
-    font-size: 15px;
-    color: rgb(0, 0, 0);
-    text-shadow: none;
-}
-
-.post img {
-    max-width: 250px;
-    float: left;
-    margin: 0px 10px 0px 0px;
-    border-radius: 3px;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    opacity: 0.95;
 }
 
 /* scanlines */
