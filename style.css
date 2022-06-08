@@ -73,19 +73,9 @@ a:hover {
     margin-bottom: 30px;
 }
 
-.blog {
-    font-size: 18px;
-}
-
-.updates {
-    margin-top: 100px;
-}
-
 .now {
     margin-top: 60px;
 }
-
-/* about */
 
 .author-image {
     float: left;
@@ -102,6 +92,10 @@ a:hover {
 .author-image:hover {
     filter: none;
     -webkit-filter: grayscale(0%);
+}
+
+.blog {
+    font-size: 18px;
 }
 
 /* background scanlines */
