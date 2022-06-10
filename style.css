@@ -44,8 +44,8 @@ body {
 .input-cursor {
     display: inline-block;
     align-self: flex-end;
-    width: 30px;
-    height: 5px;
+    width: 34px;
+    height: 7px;
     background-color: rgb(231, 231, 231);
     box-shadow: 0 0 5px rgb(230, 230, 230);
     margin-left: 10px;
