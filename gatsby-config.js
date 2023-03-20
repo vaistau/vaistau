@@ -6,5 +6,5 @@ module.exports = {
     title: `Vaiva's Computer`,
     siteUrl: `https://www.vaiva.computer`,
   },
-  plugins: [],
+  plugins: ["gatsby-plugin-postcss"],
 };
