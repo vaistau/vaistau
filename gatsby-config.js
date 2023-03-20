@@ -3,8 +3,8 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter`,
-    siteUrl: `https://www.yourdomain.tld`,
+    title: `Vaiva's Computer`,
+    siteUrl: `https://www.vaiva.computer`,
   },
   plugins: [],
-}
+};
