@@ -7,7 +7,24 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        "press-start": ['"Press Start 2P"', "monospace", "sans-serif"],
+        "press-start": ["Press Start 2P", "cursive", "monospace", "sans-serif"],
+      },
+      keyframes: {
+        "cursor-blink": {
+          "0%": { opacity: "0" },
+          "49%": {
+            opacity: "0",
+          },
+          "50%": {
+            opacity: "1",
+          },
+          "100%": {
+            opacity: "1",
+          },
+        },
+      },
+      animation: {
+        "cursor-blink": "cursor-blink 0.6s linear infinite alternate",
       },
     },
   },
