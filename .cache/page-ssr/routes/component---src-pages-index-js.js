@@ -66,11 +66,13 @@ __webpack_require__.r(__webpack_exports__);
 
 const Nav = () => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nav", {
-    className: "width-wrapper py-2"
+    className: "width-wrapper py-10"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "flex items-center gap-1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "[vaiva:~]$ ls links"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-    className: "w-2 h-5 bg-black inline-block gap-1 animate-cursor-blink"
+    className: "flex items-end gap-1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
+    className: "leading-none text-5xl"
+  }, "[vaiva:~]$ ls links"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    className: "w-12 h-[11px] bg-black inline-block gap-1 animate-cursor-blink"
   })));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Nav);

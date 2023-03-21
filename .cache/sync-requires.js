@@ -8,6 +8,6 @@ exports.components = {
   "component---src-pages-404-js": preferDefault(require("/home/vaiva/Code/vaivas_computer/src/pages/404.js")),
   "component---src-pages-about-js": preferDefault(require("/home/vaiva/Code/vaivas_computer/src/pages/about.js")),
   "component---src-pages-index-js": preferDefault(require("/home/vaiva/Code/vaivas_computer/src/pages/index.js")),
-  "component---src-pages-resume-js": preferDefault(require("/home/vaiva/Code/vaivas_computer/src/pages/resume.js"))
+  "component---src-pages-work-js": preferDefault(require("/home/vaiva/Code/vaivas_computer/src/pages/work.js"))
 }
 

@@ -9,7 +9,78 @@
     font-weight: 400;
     font-size: 1rem;
     line-height: 150%;
-    color: #000000;
+    color: #ffffff;
+    text-shadow: 0 0 5px rgb(230, 230, 230);
+  }
+
+  body {
+    /* background: linear-gradient(313deg, #314a60, #131546, #362149, #522042)
+      no-repeat center fixed;
+    background-size: 800% 800%;
+    -webkit-animation: bg-scroll 15s infinite;
+    -moz-animation: bg-scroll 15s infinite;
+    animation: bg-scroll 15s infinite; */
+  }
+
+  body::before {
+    content: "";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(
+      rgba(20, 20, 20, 0) 66%,
+      rgba(0, 0, 0, 0.15) 33%
+    );
+    background-size: 100% 5px;
+    z-index: 9999;
+    pointer-events: none;
+    animation: scanlines 0.7s linear infinite;
+  }
+
+  @keyframes scanlines {
+    0% {
+      background-position: 0px 0px;
+    }
+    100% {
+      background-position: 0px 15px;
+    }
+  }
+
+  @-webkit-keyframes bg-scroll {
+    0% {
+      background-position: 10% 0%;
+    }
+    50% {
+      background-position: 91% 100%;
+    }
+    100% {
+      background-position: 10% 0%;
+    }
+  }
+  @-moz-keyframes bg-scroll {
+    0% {
+      background-position: 10% 0%;
+    }
+    50% {
+      background-position: 91% 100%;
+    }
+    100% {
+      background-position: 10% 0%;
+    }
+  }
+  @keyframes bg-scroll {
+    0% {
+      background-position: 10% 0%;
+    }
+    50% {
+      background-position: 91% 100%;
+    }
+    100% {
+      background-position: 10% 0%;
+    }
   }
 
   @media only screen and (max-width: 640px) {

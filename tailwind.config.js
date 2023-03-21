@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        glow: "0 0 5px rgb(230, 230, 230)",
+      },
       fontFamily: {
         "press-start": ["Press Start 2P", "cursive", "monospace", "sans-serif"],
       },
