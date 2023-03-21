@@ -9,7 +9,7 @@ module.exports = {
       colors: {
         hover: "#bbf7d0",
         blue: "#6366f1",
-        "blue-link": "#4f46e5",
+        pink: "#f43f5e",
       },
       boxShadow: {
         glow: "0 0 7px white",

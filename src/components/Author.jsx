@@ -3,9 +3,12 @@ import { Link } from "gatsby";
 
 const Author = () => {
   return (
-    <section className="bg-blue text-blue px-8 min-h-screen flex items-center">
-      <div id="author" className="section">
-        <h2 className="text-6xl mb-8 text-end animate-blur">README.MD</h2>
+    <section
+      id="author"
+      className="bg-blue text-blue px-8 min-h-screen flex items-center"
+    >
+      <div className="section">
+        <h2 className="animate-blur">README.MD</h2>
         <p className="links">
           I'm a{" "}
           <a

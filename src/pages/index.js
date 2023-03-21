@@ -1,7 +1,8 @@
 import * as React from "react";
 import Header from "../components/Header";
-import Footer from "../components/Footer";
 import Author from "../components/Author";
+import Work from "../components/Work";
+import Footer from "../components/Footer";
 
 const IndexPage = () => {
   return (
@@ -9,6 +10,7 @@ const IndexPage = () => {
       <Header></Header>
       <main>
         <Author />
+        <Work />
       </main>
       <Footer />
     </>

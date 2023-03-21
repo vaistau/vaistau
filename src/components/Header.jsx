@@ -15,7 +15,7 @@ const Header = () => {
       } else {
         setCurrentColor(colors[0]);
       }
-    }, 1600);
+    }, 1300);
     return () => clearTimeout(timeoutID);
   });
 

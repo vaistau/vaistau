@@ -29,7 +29,7 @@
     padding: 4rem;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 2rem;
   }
 
   .links a {
@@ -48,6 +48,10 @@
   h2 {
     opacity: 40%;
     font-family: "Press Start 2P", "cursive", "monospace", "sans-serif";
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 3.75rem;
+    text-transform: uppercase;
   }
 
   /* Scanlines */
