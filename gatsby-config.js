@@ -3,7 +3,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Vaiva's Computer`,
+    title: `VAIVA`,
     siteUrl: `https://www.vaiva.computer`,
   },
   plugins: ["gatsby-plugin-postcss"],
