@@ -40,7 +40,7 @@ const Author = () => {
           </a>
           , tea,{" "}
           <a
-            href="https://www.goodreads.com/user/show/77402014-vaiva"
+            href="https://www.goodreads.com/vaistau "
             rel="goodreads"
             target="_blank"
           >

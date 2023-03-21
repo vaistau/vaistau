@@ -32,7 +32,7 @@ const Work = () => {
   ];
 
   return (
-    <section className="min-h-screen bg-pink py-20 flex items-center text-pink">
+    <section className="min-h-screen bg-pink flex items-center text-pink">
       <div className="section">
         <h2 className="animate-blur">My Work</h2>
         <ul className="w-full flex flex-col gap-8 text-xl">
@@ -44,14 +44,14 @@ const Work = () => {
                 rel="noopener noreferrer"
                 className="flex gap-8 justify-around"
               >
-                <div className="w-2/4 flex flex-col gap-4 justify-center">
+                <div className="w-2/4 flex flex-col gap-4 justify-center group-hover:opacity-70">
                   <h3 className="uppercase font-press-start group-hover:underline">
                     {project.title}
                   </h3>
                   <p>{project.description}</p>
                   <p>{`Tech stack: ${project.stack}`}</p>
                 </div>
-                <div className="w-[30rem] border-pink group-hover:border-black border-2 rounded-xl overflow-hidden">
+                <div className="w-[30rem] border-pink group-hover:border-black group-hover:border-opacity-70 border-2 rounded-xl overflow-hidden">
                   <img src={project.preview} alt={`${project.title} Preview`} />
                 </div>
               </a>

@@ -4,7 +4,7 @@ import { Link } from "gatsby";
 const Header = () => {
   const [currentColor, setCurrentColor] = useState("#a855f7");
 
-  const colors = ["#a855f7", "#f59e0b", "#14b8a6", "#f87171"];
+  const colors = ["#a855f7", "#f59e0b", "#14b8a6", "#ec4899"];
   let index = colors.indexOf(currentColor);
 
   // Change background color every interval
@@ -15,7 +15,7 @@ const Header = () => {
       } else {
         setCurrentColor(colors[0]);
       }
-    }, 1300);
+    }, 1200);
     return () => clearTimeout(timeoutID);
   });
 

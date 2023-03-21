@@ -10,6 +10,7 @@ module.exports = {
         hover: "#bbf7d0",
         blue: "#6366f1",
         pink: "#f43f5e",
+        green: "#84cc16",
       },
       boxShadow: {
         glow: "0 0 7px white",
