@@ -22,17 +22,27 @@ const Header = () => {
   return (
     <section
       style={{ backgroundColor: currentColor }}
-      className="min-h-screen flex items-center text-white font-press-start header"
+      className="min-h-screen flex flex-col justify-center text-white font-press-start header"
     >
-      <Link
-        to="#author"
-        className="width-wrapper py-12 w-fit flex items-end gap-1 justify-center opacity-70 hover:opacity-100"
-      >
-        <h1 className="leading-none text-6xl text-center">
-          [vaiva:~]$ ls links
-        </h1>
-        <span className="cursor shadow-glow w-12 h-[11px] bg-white inline-block gap-1 animate-cursor-blink" />
-      </Link>
+      <div className="width-wrapper flex flex-col">
+        <Link
+          to="#author"
+          className="py-12 text-center flex items-end gap-1 justify-center opacity-70 hover:opacity-100"
+        >
+          <h1 className="leading-none text-6xl md:text-4xl sm:text-2xl text-center">
+            [vaiva:~]$ ls links
+          </h1>
+          <span className="2xl:hidden cursor shadow-glow w-12 h-[11px] bg-white inline-block gap-1 animate-cursor-blink" />
+        </Link>
+        <a
+          href="https://www.yourworldoftext.com/~oldhag/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-xl text-center opacity-70 hover:opacity-100 uppercase"
+        >
+          Leave me a cryptic message
+        </a>
+      </div>
     </section>
   );
 };

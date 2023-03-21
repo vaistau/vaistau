@@ -10,7 +10,7 @@ const Author = () => {
       <div className="section">
         <h2 className="animate-blur">README.MD</h2>
         <p className="links">
-          I'm a{" "}
+          Hey there, my name's Vaiva. I'm a{" "}
           <a
             href="https://www.theodinproject.com/"
             rel="noopener noreferrer"
@@ -19,7 +19,8 @@ const Author = () => {
             DIY
           </a>{" "}
           full stack developer whose formal education consisted entirely of
-          medical science.
+          medical science. What I lack in formal computer science schooling I
+          make up in an astounding ability to Google things.
         </p>
 
         <p>
@@ -30,32 +31,9 @@ const Author = () => {
         </p>
 
         <p className="links">
-          I like volunteering with animals, yoga, horror{" "}
-          <a
-            href="https://letterboxd.com/olderhag/"
-            rel="letterboxd"
-            target="_blank"
-          >
-            movies
-          </a>
-          , tea,{" "}
-          <a
-            href="https://www.goodreads.com/vaistau "
-            rel="goodreads"
-            target="_blank"
-          >
-            reading
-          </a>
-          , going on night walks,{" "}
-          <a
-            href="https://open.spotify.com/user/ms7k3k2e4jpiy1yyjw3i1exx8?si=4d3aeea7b49c427e"
-            rel="spotify"
-            target="_blank"
-          >
-            music
-          </a>
-          , and exploring the weird, decentralized regions of the internet (more
-          on that in my{" "}
+          I like volunteering with animals, yoga, horror movies, tea, my cats,
+          reading, going on night walks, and exploring the weird, decentralized
+          regions of the internet (more on that in my{" "}
           <a
             href="https://www.are.na/vaiva-s"
             rel="noopener noreferrer"
