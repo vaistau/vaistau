@@ -3,9 +3,9 @@ import Nav from "./Nav";
 import Footer from "./Footer";
 
 const Layout = ({ children }) => {
-  const [currentColor, setCurrentColor] = useState("#9333ea");
+  const [currentColor, setCurrentColor] = useState("#a855f7");
 
-  const colors = ["#9333ea", "#f97316", "#22c55e", "#ea580c", "#4f46e5"];
+  const colors = ["#a855f7", "#fbbf24", "#14b8a6", "#f87171", "#84cc16"];
 
   useEffect(() => {
     const timeoutID = setTimeout(() => {
@@ -16,7 +16,7 @@ const Layout = ({ children }) => {
       } else {
         setCurrentColor(colors[0]);
       }
-    }, 1500);
+    }, 1900);
     return () => clearTimeout(timeoutID);
   });
 

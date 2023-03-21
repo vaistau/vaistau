@@ -43,7 +43,26 @@ __webpack_require__.r(__webpack_exports__);
 const Layout = ({
   children
 }) => {
+  const {
+    0: currentColor,
+    1: setCurrentColor
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)("#a855f7");
+  const colors = ["#a855f7", "#fbbf24", "#14b8a6", "#f87171", "#84cc16"];
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+    const timeoutID = setTimeout(() => {
+      let index = colors.indexOf(currentColor);
+      if (index !== colors.length - 1) {
+        setCurrentColor(colors[index + 1]);
+      } else {
+        setCurrentColor(colors[0]);
+      }
+    }, 1700);
+    return () => clearTimeout(timeoutID);
+  });
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    style: {
+      backgroundColor: currentColor
+    },
     className: "flex h-screen flex-col justify-between"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Nav__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", null, children), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], null));
 };
@@ -66,13 +85,13 @@ __webpack_require__.r(__webpack_exports__);
 
 const Nav = () => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nav", {
-    className: "width-wrapper py-10"
+    className: "width-wrapper py-12"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "flex items-end gap-1"
+    className: "flex items-end gap-1 animate-blur-blink w-fit"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
     className: "leading-none text-5xl"
   }, "[vaiva:~]$ ls links"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-    className: "w-12 h-[11px] bg-black inline-block gap-1 animate-cursor-blink"
+    className: "shadow-glow w-12 h-[11px] bg-white inline-block gap-1 animate-cursor-blink"
   })));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Nav);
@@ -99,7 +118,7 @@ const IndexPage = () => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], null);
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (IndexPage);
-const Head = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", null, "Home Page");
+const Head = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", null, "Vaiva's Computer");
 
 /***/ })
 
