@@ -6,11 +6,11 @@ const Layout = ({ children }) => {
   const [currentColor, setCurrentColor] = useState("#a855f7");
 
   const colors = ["#a855f7", "#fbbf24", "#14b8a6", "#f87171", "#84cc16"];
+  let index = colors.indexOf(currentColor);
 
+  // Change background color every interval
   useEffect(() => {
     const timeoutID = setTimeout(() => {
-      let index = colors.indexOf(currentColor);
-
       if (index !== colors.length - 1) {
         setCurrentColor(colors[index + 1]);
       } else {

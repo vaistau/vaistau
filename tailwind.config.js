@@ -6,11 +6,20 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        hover: "#bbf7d0",
+      },
       boxShadow: {
-        glow: "0 0 7px rgb(230, 230, 230)",
+        glow: "0 0 7px white",
+        hover: "0 0 7px hover",
       },
       fontFamily: {
-        "press-start": ["Press Start 2P", "cursive", "monospace", "sans-serif"],
+        "press-start": [
+          "'Press Start 2P'",
+          "cursive",
+          "monospace",
+          "sans-serif",
+        ],
       },
       keyframes: {
         "cursor-blink": {
@@ -28,9 +37,9 @@ module.exports = {
         "blur-blink": {
           "0%": { filter: "blur(0px)" },
           "20%": { filter: "blur(0px)" },
-          "90%": { filter: "blur(6px)" },
+          "90%": { filter: "blur(7px)" },
           "100%": {
-            filter: "blur(12px)",
+            filter: "blur(14px)",
           },
         },
       },

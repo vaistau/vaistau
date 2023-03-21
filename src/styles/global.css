@@ -5,23 +5,28 @@
 
 @layer base {
   :root {
-    font-family: "Press Start 2P", "cursive", "monospace", "sans-serif";
+    font-family: "monospace", "sans-serif";
     font-weight: 400;
     font-size: 1rem;
     line-height: 150%;
-    color: #ffffff;
-    text-shadow: 0 0 7px rgb(230, 230, 230);
+    color: #000000;
   }
 
-  body {
-    /* background: linear-gradient(313deg, #314a60, #131546, #362149, #522042)
-      no-repeat center fixed;
-    background-size: 800% 800%;
-    -webkit-animation: bg-scroll 15s infinite;
-    -moz-animation: bg-scroll 15s infinite;
-    animation: bg-scroll 15s infinite; */
+  .header h1 {
+    text-shadow: 0 0 8px #ffffff;
   }
 
+  a:hover h1 {
+    text-shadow: 0 0 8px #bbf7d0;
+  }
+
+  a:hover,
+  div:hover > a {
+    color: #bbf7d0;
+    text-shadow: none;
+  }
+
+  /* Scanlines */
   body::before {
     content: "";
     display: block;
@@ -46,47 +51,6 @@
     }
     100% {
       background-position: 0px 15px;
-    }
-  }
-
-  @-webkit-keyframes bg-scroll {
-    0% {
-      background-position: 10% 0%;
-    }
-    50% {
-      background-position: 91% 100%;
-    }
-    100% {
-      background-position: 10% 0%;
-    }
-  }
-  @-moz-keyframes bg-scroll {
-    0% {
-      background-position: 10% 0%;
-    }
-    50% {
-      background-position: 91% 100%;
-    }
-    100% {
-      background-position: 10% 0%;
-    }
-  }
-  @keyframes bg-scroll {
-    0% {
-      background-position: 10% 0%;
-    }
-    50% {
-      background-position: 91% 100%;
-    }
-    100% {
-      background-position: 10% 0%;
-    }
-  }
-
-  @media only screen and (max-width: 640px) {
-    :root {
-      font-size: 1rem;
-      line-height: 1.3rem;
     }
   }
 }
