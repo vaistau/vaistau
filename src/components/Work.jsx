@@ -18,7 +18,7 @@ const Work = () => {
       link: "https://www.handprint.io/",
       description:
         "Service connecting talent with companies looking to make a positive impact on the world. ",
-      stack: "Next.js, styled-components, Contentful",
+      stack: "Next.js, styled-components, Contentful, Auth0, MongoDB",
       preview: handprint,
     },
     {
