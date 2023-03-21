@@ -8,9 +8,9 @@ const Author = () => {
       className="bg-blue text-blue px-8 min-h-screen flex items-center"
     >
       <div className="section">
-        <h2 className="animate-blur">README.MD</h2>
+        <h2>README.MD</h2>
         <p className="links">
-          Hey there, my name's Vaiva. I'm a{" "}
+          Hey there, my name's Vaiva. I'm a Chicago-based{" "}
           <a
             href="https://www.theodinproject.com/"
             rel="noopener noreferrer"

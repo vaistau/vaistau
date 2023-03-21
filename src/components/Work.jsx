@@ -25,33 +25,33 @@ const Work = () => {
       title: "St. Laurence",
       link: "https://www.stlaurence.com/",
       description:
-        "Website for a local high school servicing nearly 1000 students and their families.",
+        "Website for a local high school servicing nearly 1,000 students and their families.",
       stack: "WordPress",
       preview: laurence,
     },
   ];
 
   return (
-    <section className="min-h-screen bg-pink flex items-center text-pink">
+    <section className="px-8 min-h-screen bg-pink flex items-center text-pink">
       <div className="section">
-        <h2 className="animate-blur">My Work</h2>
-        <ul className="w-full flex flex-col gap-8 text-xl">
+        <h2>My Work</h2>
+        <ul className="w-full flex flex-col lg:gap-16 gap-8 text-2xl sm:text-[1.2rem]">
           {projects.map((project) => (
             <li className="group hover:text-black">
               <a
                 href={project.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex gap-8 justify-around"
+                className="flex gap-8 justify-around lg:flex-col"
               >
-                <div className="w-2/4 flex flex-col gap-4 justify-center group-hover:opacity-70">
+                <div className="w-2/4 lg:text-center lg:items-center lg:w-full flex flex-col gap-4 justify-center group-hover:opacity-70">
                   <h3 className="uppercase font-press-start group-hover:underline">
                     {project.title}
                   </h3>
                   <p>{project.description}</p>
                   <p>{`Tech stack: ${project.stack}`}</p>
                 </div>
-                <div className="w-[30rem] border-pink group-hover:border-black group-hover:border-opacity-70 border-2 rounded-xl overflow-hidden">
+                <div className="w-[30rem] lg:w-full lg:mx-auto border-pink group-hover:border-black group-hover:border-opacity-70 border-2 rounded-xl overflow-hidden">
                   <img src={project.preview} alt={`${project.title} Preview`} />
                 </div>
               </a>
