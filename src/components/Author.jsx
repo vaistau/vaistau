@@ -10,7 +10,7 @@ const Author = () => {
       <div className="section">
         <h2>README.MD</h2>
         <p className="links">
-          Hey there, my name's Vaiva. I'm a Chicago-based{" "}
+          I'm a Chicago-based{" "}
           <a
             href="https://www.theodinproject.com/"
             rel="noopener noreferrer"

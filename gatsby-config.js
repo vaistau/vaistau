@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `VAIVA`,
-    siteUrl: `https://www.vaiva.computer`,
+    siteUrl: `https://www.vaiva.netlify.app`,
   },
   plugins: ["gatsby-plugin-postcss"],
 };
