@@ -7,7 +7,7 @@
   :root,
   body,
   html {
-    font-family: "monospace", "sans-serif";
+    font-family: monospace, arial;
     font-weight: 400;
     line-height: 150%;
     scroll-behavior: smooth;
@@ -47,7 +47,7 @@
 
   h2 {
     opacity: 40%;
-    font-family: "Press Start 2P", "cursive", "monospace", "sans-serif";
+    font-family: "Press Start 2P", "cursive", monospace, arial;
     margin-bottom: 2rem;
     text-align: center;
     font-size: 3.75rem;
