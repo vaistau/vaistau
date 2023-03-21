@@ -4,7 +4,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
 @layer base {
-  :root {
+  :root,
+  body,
+  html {
     font-family: "monospace", "sans-serif";
     font-weight: 400;
     line-height: 150%;
@@ -21,6 +23,8 @@
     width: 100%;
     background-color: #ffffff;
     opacity: 70%;
+    font-size: 1.6rem;
+    line-height: 150%;
     border-radius: 24px;
     padding: 4rem;
     display: flex;
@@ -34,7 +38,7 @@
   }
 
   .links a:hover {
-    opacity: 40%;
+    text-decoration: underline;
   }
 
   .header h1 {

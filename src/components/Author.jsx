@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 
 const Author = () => {
   return (
-    <section className="bg-blue text-blue px-8 min-h-screen flex items-center text-xl">
+    <section className="bg-blue text-blue px-8 min-h-screen flex items-center">
       <div id="author" className="section">
         <h2 className="text-6xl mb-8 text-end animate-blur">README.MD</h2>
         <p className="links">
@@ -19,24 +19,15 @@ const Author = () => {
           medical science.
         </p>
 
-        <p className="links">
-          Here are the <Link to="#projects">projects</Link> I've worked on, and
-          here are the{" "}
-          <a href="resume.html" rel="resume">
-            tools/skills
-          </a>{" "}
-          I've picked up along the way.
-        </p>
-
         <p>
           I aspire to find my niche as some form of creative technologist and
           create websites that are intentional, playful, and meaningful. I
-          believe computers are pointless if not used to create emotionally
+          believe the internet is pointless if not used to create emotionally
           compelling, beautiful, and impactful things.
         </p>
 
         <p className="links">
-          I like volunteering with animals, horror{" "}
+          I like volunteering with animals, yoga, horror{" "}
           <a
             href="https://letterboxd.com/olderhag/"
             rel="letterboxd"

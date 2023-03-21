@@ -41,7 +41,7 @@ module.exports = {
           "30%": { filter: "blur(0px)" },
           "70%": { filter: "blur(1px)" },
           "100%": {
-            filter: "blur(7px)",
+            filter: "blur(6px)",
           },
         },
       },
