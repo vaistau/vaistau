@@ -45,7 +45,7 @@ const Work = () => {
                 className="flex gap-8 justify-around lg:flex-col"
               >
                 <div className="w-2/4 lg:text-center lg:items-center lg:w-full flex flex-col gap-4 justify-center group-hover:opacity-70">
-                  <h3 className="uppercase font-press-start group-hover:underline">
+                  <h3 className="uppercase font-press-start underline">
                     {project.title}
                   </h3>
                   <p>{project.description}</p>
