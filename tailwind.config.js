@@ -8,6 +8,8 @@ module.exports = {
     extend: {
       colors: {
         hover: "#bbf7d0",
+        blue: "#6366f1",
+        "blue-link": "#4f46e5",
       },
       boxShadow: {
         glow: "0 0 7px white",
@@ -34,18 +36,18 @@ module.exports = {
             opacity: "1",
           },
         },
-        "blur-blink": {
+        blur: {
           "0%": { filter: "blur(0px)" },
-          "20%": { filter: "blur(0px)" },
-          "90%": { filter: "blur(7px)" },
+          "30%": { filter: "blur(0px)" },
+          "70%": { filter: "blur(1px)" },
           "100%": {
-            filter: "blur(14px)",
+            filter: "blur(7px)",
           },
         },
       },
       animation: {
         "cursor-blink": "cursor-blink 0.6s linear infinite alternate",
-        "blur-blink": "blur-blink 3s linear infinite alternate",
+        blur: "blur 1.5s linear infinite alternate",
       },
     },
   },

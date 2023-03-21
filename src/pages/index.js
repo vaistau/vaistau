@@ -1,14 +1,14 @@
 import * as React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import About from "../components/About";
+import Author from "../components/Author";
 
 const IndexPage = () => {
   return (
     <>
       <Header></Header>
       <main>
-        <About></About>
+        <Author />
       </main>
       <Footer />
     </>
