@@ -30,9 +30,9 @@ const Header = () => {
           className="py-12 text-center flex items-end gap-1 justify-center opacity-70 hover:opacity-100"
         >
           <h1 className="leading-none text-6xl md:text-4xl sm:text-2xl text-center">
-            [vaiva:~]$ ls links
+            [vaiva:~]$ ls
           </h1>
-          <span className="2xl:hidden cursor shadow-glow w-12 h-[11px] bg-white inline-block gap-1 animate-cursor-blink" />
+          <span className="lg:hidden cursor shadow-glow w-12 h-[11px] bg-white inline-block gap-1 animate-cursor-blink" />
         </Link>
         <a
           href="https://www.yourworldoftext.com/~oldhag/"
