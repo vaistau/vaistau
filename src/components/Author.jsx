@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "gatsby";
 
 const Author = () => {
   return (
@@ -31,17 +30,9 @@ const Author = () => {
         </p>
 
         <p className="links">
-          I like volunteering with animals, yoga, horror movies, tea, my cats,
-          reading, going on night walks, and exploring the weird, decentralized
-          regions of the internet (more on that in my{" "}
-          <a
-            href="https://www.are.na/vaiva-s"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            digital garden
-          </a>
-          ).
+          I like volunteering with animals, reading, yoga, horror movies, tea,
+          my cats, going on night walks, and exploring the weird, decentralized
+          regions of the internet.
         </p>
       </div>
     </section>
