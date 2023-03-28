@@ -15,23 +15,6 @@
     letter-spacing: 0.1rem;
   }
 
-  .section {
-    box-shadow: 0 0 8px #ffffff;
-    max-width: 90rem;
-    padding: 0 2rem;
-    margin: 5rem auto;
-    width: 100%;
-    background-color: #ffffff;
-    opacity: 70%;
-    font-size: 1.6rem;
-    line-height: 150%;
-    border-radius: 24px;
-    padding: 4rem;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-  }
-
   .links a {
     color: #000000;
     opacity: 70%;
@@ -106,6 +89,23 @@
 }
 
 @layer components {
+  .section {
+    box-shadow: 0 0 8px #ffffff;
+    max-width: 90rem;
+    padding: 0 2rem;
+    margin: 5rem auto;
+    width: 100%;
+    background-color: #ffffff;
+    opacity: 70%;
+    font-size: 1.6rem;
+    line-height: 150%;
+    border-radius: 24px;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
   .width-wrapper {
     max-width: 90rem;
     padding: 0 2rem;
