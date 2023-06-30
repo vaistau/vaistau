@@ -12,7 +12,7 @@ const Footer = () => {
     },
     {
       title: "Goodreads",
-      link: "https://www.goodreads.com/vaistau ",
+      link: "https://www.goodreads.com/oldhagv2",
     },
   ];
 
