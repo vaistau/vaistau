@@ -20,7 +20,7 @@ const Header = () => {
   });
 
   return (
-    <section
+    <header
       style={{ backgroundColor: currentColor }}
       className="min-h-screen flex flex-col justify-center text-white font-press-start header"
     >
@@ -43,7 +43,7 @@ const Header = () => {
           Leave me a cryptic message
         </a>
       </div>
-    </section>
+    </header>
   );
 };
 
